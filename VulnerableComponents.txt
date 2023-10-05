@@ -1,0 +1,7 @@
+
+  ComponentName: log4net
+                       Bom-Ref: nuget:log4net::2.0.8:
+                       Vulnerabilities: CVE-2018-1285 ,
+  ComponentName: newtonsoft.json
+                       Bom-Ref: nuget:newtonsoft.json::11.0.1:
+                       Vulnerabilities: SRCCLR-SID-35451 ,

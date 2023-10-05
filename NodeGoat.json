@@ -1,0 +1,42 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "serialNumber" : "urn:uuid:2cab63e5-8c6d-4b6d-b9ec-28663b040341",
+  "vulnerabilities" : [ ],
+  "components" : [ ],
+  "dependencies" : [ ],
+  "metadata" : {
+    "timestamp" : "2023-09-21T00:02:04.325+00:00",
+    "authors" : [ {
+      "name" : "Jin Mok",
+      "email" : "jmok@veracode.com"
+    } ],
+    "supplier" : {
+      "name" : "verainternal_jmok"
+    },
+    "tools" : [ {
+      "vendor" : "Veracode",
+      "name" : "SCA SBOM Tool",
+      "version" : "1.0"
+    } ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "NodeGoat",
+      "name" : "NodeGoat",
+      "properties" : [ {
+        "name" : "veracode:scan_id",
+        "value" : "67d2fc26-4052-4fbf-b978-be06d9606b2b"
+      }, {
+        "name" : "veracode:scan_type",
+        "value" : "application"
+      }, {
+        "name" : "veracode:linked",
+        "value" : "false"
+      }, {
+        "name" : "veracode:app_id",
+        "value" : "76e2a95a-5d66-4573-b0d6-315bceb86a30"
+      } ]
+    }
+  }
+}

@@ -1,0 +1,2058 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "serialNumber" : "urn:uuid:c0dcd731-3754-4173-b70b-72277be44560",
+  "vulnerabilities" : [ {
+    "id" : "CVE-2018-1285",
+    "source" : {
+      "url" : "https://security.netapp.com/advisory/ntap-20220909-0001/",
+      "name" : "Vendor Disclosure"
+    },
+    "ratings" : [ {
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    }, {
+      "score" : 9.8,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    } ],
+    "created" : "2020-05-11T00:00:00.000+00:00",
+    "published" : "2020-04-04T00:00:00.000+00:00",
+    "updated" : "2022-10-27T00:00:00.000+00:00",
+    "cwes" : [ 611 ],
+    "description" : "XML External Entities (XXE) log4net is vulnerable to XML external entity attacks. External DTDs are enabled by default and allow attackers to perform XXE attacks using malicious XML data and documents.",
+    "affects" : [ {
+      "ref" : "nuget:log4net::2.0.8:"
+    } ],
+    "properties" : [ {
+      "name" : "Vulnerability Link",
+      "value" : "https://security.netapp.com/advisory/ntap-20220909-0001/"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/r7ab6b6e702f11a6f77b0db2af2d5e5532f56ae4b99b5fe73c5200b6a@%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/r9de86a185575e6c5f92e2a70a1d2e2e9514dc4341251577aac8e3866@%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/rdbac24c945ca5c69cd5348b5ac023bc625768f653335de146e09ae2d@%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/r6691036b0f85419e8bc97f6f522b8c353dd250b0a329164167b021a6%40%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/r525cbbd7db0aef4a114cf60de8439aa285decc34904d42a7f14f39c3@%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/r00b16ac5e0bbf7009a0d167ed58f3f94d0033b0f4b3e3d5025cc4872@%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://www.oracle.com/security-alerts/cpuapr2022.html"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/r6543acafca3e2d24ff4b0c364a91540cb9378977ffa8d37a03ab4b0f@%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M2U233HVAQDSZ2PRG4XSGDASLY3J6ALH/"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://www.oracle.com/security-alerts/cpujan2021.html"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/rd2d72a017e238d1f345f9d14e075c81be16fc68a41c9e9ad9e29a732@%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://www.oracle.com/security-alerts/cpuApr2021.html"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VT2DNNSW7C7FNK3MA3SLEUHGW5USYZKE/"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/r33564de316d4e4ba0fea1d4d079e62cde1ffe64369c1157243d840d9@%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.apache.org/thread.html/reab1c277c95310bad1038255e0757857b2fbe291411b4fa84552028a%40%3Cdev.logging.apache.org%3E"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VKL2LPINAI6BCMXOH4V4HVHGLUXIWOFO/"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://issues.apache.org/jira/browse/LOG4NET-575"
+    } ]
+  }, {
+    "id" : "SRCCLR-SID-35451",
+    "source" : {
+      "url" : "https://github.com/JamesNK/Newtonsoft.Json/issues/2457",
+      "name" : "GitHub Issue"
+    },
+    "ratings" : [ {
+      "score" : 5,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : ""
+    }, {
+      "score" : 5.3,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    } ],
+    "created" : "2022-05-09T00:00:00.000+00:00",
+    "published" : "2021-01-19T00:00:00.000+00:00",
+    "updated" : "2022-06-23T00:00:00.000+00:00",
+    "description" : "Denial Of Service (DoS) Newtonsoft.Json is vulnerable to denial of service. The use of insecure defaults cause an StackOverFlow exception (SOE) whenever nested expressions are being processed when an attacker sends 5 requests that cause SOE in time frame of 5 minutes.",
+    "affects" : [ {
+      "ref" : "nuget:newtonsoft.json::11.0.1:"
+    } ],
+    "properties" : [ {
+      "name" : "Vulnerability Link",
+      "value" : "https://github.com/JamesNK/Newtonsoft.Json/issues/2457"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://github.com/JamesNK/Newtonsoft.Json/pull/2462"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://github.com/advisories/GHSA-5crp-9r3c-p9vr"
+    }, {
+      "name" : "Vulnerability Link",
+      "value" : "https://github.com/JamesNK/Newtonsoft.Json/commit/7e77bbe1beccceac4fc7b174b53abfefac278b66"
+    } ]
+  } ],
+  "components" : [ {
+    "type" : "library",
+    "bom-ref" : "VeraDemoNet.dll",
+    "name" : "VeraDemoNet.dll",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c34e1fcfff736153da8ded0693d5b767f151bf41"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "7eca3d98b9b3b44e845df4b696794e56091ed49ce6fa832a5aa17dbc6b81aa81"
+    } ],
+    "properties" : [ {
+      "name" : "Match Type",
+      "value" : "Unmatched"
+    }, {
+      "name" : "Bytecode Hash",
+      "value" : "e35a506047761fd95618574f41ddd2ba7b999e0e156b8b814eba44f1ba898d0"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/VeraDemoNet.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.xml.xmldocument::4.3.0:",
+    "name" : "system.xml.xmldocument",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.xml.xmldocument@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "e4bfbd7f5db31ea919537d0510cf8b224e4e97b5"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "fe1fda39c8f47007414571f468a1b01fcf9ca12c302f93855fb826f5eca00e67"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Xml.XmlDocument.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.diasymreader.native::1.7.0:",
+    "name" : "microsoft.diasymreader.native",
+    "version" : "1.7.0",
+    "purl" : "pkg:nuget/microsoft.diasymreader.native@1.7.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c6f3c9d81713687dc3820d8cabf14c2a32208d27"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "f21da9fb831ac943736135b6ee109a4b352511b8d6c07cb03c66b61996d1ddc9"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://github.com/dotnet/roslyn-debug" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.appcontext::4.3.0:",
+    "name" : "system.appcontext",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.appcontext@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c9a0c7200ad55960a1e1824b04718cbf6ca84581"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "ea3a3003e10f44280074810934261b61a209c1ec1e9029b932742c853bde743e"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.AppContext.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.xml.readerwriter::4.3.0:",
+    "name" : "system.xml.readerwriter",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.xml.readerwriter@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "765c9e4d36b4f2986514c1ab24b5e5e56afff448"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "cdd78df6e1544f04bb71cd21317fac274c5b05802a061913777cfafbf80e93c1"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Xml.ReaderWriter.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.encoding::4.3.0:",
+    "name" : "system.security.cryptography.encoding",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.security.cryptography.encoding@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a0f2c03cb813317460133de80231d7b1fb62dcc5"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "91c7c02d46f754193b3988c28050135c804e47dc3456d0c3dde028ac0341fbe2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Security.Cryptography.Encoding.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.principal.windows::4.4.1:",
+    "name" : "system.security.principal.windows",
+    "version" : "4.4.1",
+    "purl" : "pkg:nuget/system.security.principal.windows@4.4.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "35ae25f5c4a14e506ccf2a08f19c381b30e38fa2"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "77a11c23eaf92c44b74f337c7b70328a5607b2cac37eeb0a1794b1793e1be323"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Security.Principal.Windows.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.primitives::4.0.0:",
+    "name" : "system.security.cryptography.primitives",
+    "version" : "4.0.0",
+    "purl" : "pkg:nuget/system.security.cryptography.primitives@4.0.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "62a622557cc0d6fced9c1a14be28dbc39e9bd6fc"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "5a6c8f69a8dea8a775331273aaae707eee2a2743fb1498c3cc4dbab679125d11"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Security.Cryptography.Primitives.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.fileversioninfo::4.3.0:",
+    "name" : "system.diagnostics.fileversioninfo",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.diagnostics.fileversioninfo@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "0b84b6bd0619fe17ba3627cbc6a5620a61a8796d"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "3b031a6e7bd56bd5264b4a7eac0700fcc41c026c39b8a8c5488910d4dd07fbf1"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Diagnostics.FileVersionInfo.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.xml.xpath::4.3.0:",
+    "name" : "system.xml.xpath",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.xml.xpath@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "2b6a273ac7a6c072c1c338f6d447ec7c8dbc92e6"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "371c158de72882eb0f1872a3a7ddf20ee4a670a8efa6380e1cf78fe511740acb"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Xml.XPath.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.io.filesystem::4.0.1:",
+    "name" : "system.io.filesystem",
+    "version" : "4.0.1",
+    "purl" : "pkg:nuget/system.io.filesystem@4.0.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b46ad93384323ed4aa88e8af3cdee208a88f1f6d"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "2d917d520488b56673e74ac9dc610a2488ae70a7ebbbbff097c2e855ba1ef590"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.IO.FileSystem.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.io.filesystem.primitives::4.3.0:",
+    "name" : "system.io.filesystem.primitives",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.io.filesystem.primitives@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8374975ca07a300021ef0acaa4f908d5bfb102fb"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "02a6f9601aa48557fc5c3bfed80e31762a0785b9f78ec568c9f2f0722eeb9c0b"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.IO.FileSystem.Primitives.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.io.pipes::4.3.0:",
+    "name" : "system.io.pipes",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.io.pipes@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "bc068d101e430203fb0919be89ca646171060758"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "021e25cddbcb6b634b0c33280c2f18a0b43e5dddf9800a49ce49beb789e3822f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.IO.Pipes.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.aspnet.webpages::3.2.4:",
+    "name" : "microsoft.aspnet.webpages",
+    "version" : "3.2.4",
+    "purl" : "pkg:nuget/microsoft.aspnet.webpages@3.2.4",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a491138e48af5447c2a86f425bb0799bf1bf7020"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "06faf42b32e390faa59b9a4aefd31ffd9741c72e344526ce2ddc9d28898a5faa"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://www.asp.net/web-pages" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "ccf915eeffd15a7158b429593b9c683b20531dc8e8e731a94efc8b84f9f83"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/System.Web.WebPages.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.x509certificates::4.3.0:",
+    "name" : "system.security.cryptography.x509certificates",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.security.cryptography.x509certificates@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "e9911b3c59f15474391811e17940faa6a6c217ce"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "f415a437f4743355068198b3fc152216526f4af93f02e50bc52f8b91dc4a402a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "c9e961d8d2fb76f8829b850676be018dae4549258ed5ca3636c5b92479574"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Security.Cryptography.X509Certificates.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.xml.xpath.xdocument::4.3.0:",
+    "name" : "system.xml.xpath.xdocument",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.xml.xpath.xdocument@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "129ab0a646a4899b3fd2525f37b11048c4075e73"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "942a510835856f8bd1a23c4cd8343c71cfa2208b17b5b01aadd808595a045f35"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "c89c23c02043131fff3758752e66af5bb0a6b74a828e5724bc7d2f9b88cec73c"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Xml.XPath.XDocument.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.claims::4.3.0:",
+    "name" : "system.security.claims",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.security.claims@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6a87fa74e76070bda06cdb1f79c582fc174701f8"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "cb2cfdd49a5e6809578d9ebc6e7202c27b969cbc57d69ec920849f99b04bf3e8"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "c7256128eb469c93504a59e0b27f66c5945f696db371771646af86941763fc"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Security.Claims.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.applicationinsights.dependencycollector::2.5.1:",
+    "name" : "microsoft.applicationinsights.dependencycollector",
+    "version" : "2.5.1",
+    "purl" : "pkg:nuget/microsoft.applicationinsights.dependencycollector@2.5.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8245cf9d4fdfdc2e12364fc87f8202760e7cf077"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "cf0e8b33ecf635dc9b53624cbb0fd87781c506be199fb9c5e715a0798077593f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://go.microsoft.com/fwlink/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "c11fbe2146bc7f924ffe78fe82ee3579a97852d3c1eeb696c8d72839153ba42c"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.AI.DependencyCollector.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:entityframework::6.2.0:",
+    "name" : "entityframework",
+    "version" : "6.2.0",
+    "purl" : "pkg:nuget/entityframework@6.2.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9d8cf03893aaf9807f993f48554921afa081859f"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "e0e126c3b8a7ba9501d03f99d54a5cbbd174bcecb6170098ab4cc1219f27f933"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://www.asp.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "bfadc64efaf67b9ba2fbba2bc98a0bf64cbc61bcd7ee9175da3678437488f9"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/EntityFramework.SqlServer.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.valuetuple::4.3.0:",
+    "name" : "system.valuetuple",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.valuetuple@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9cb13b73e79b0b5300176edb4dc30f12023b9725"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "158a18599e8dabdd292563ea05f885e56f8bf8b23c7efd292f783fbac5a71b22"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "bf63671d75222abce134dfeff38c127ede0c4f7353ac518539eac1724d543e"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.ValueTuple.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.text.encoding.codepages::4.5.0-rc1:",
+    "name" : "system.text.encoding.codepages",
+    "version" : "4.5.0-rc1",
+    "purl" : "pkg:nuget/system.text.encoding.codepages@4.5.0-rc1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "48a7a46827ed0f797b36baec8f57fb98de541524"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "8e85e80455b362d6fbd549e336ca1f7558df3f6c598291e864ddefbced8ed430"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "bf11a8671ecf1b5b21c7dae5cdf58df5c79d57c945f8a32d2d9753e23d620e9"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Text.Encoding.CodePages.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.stacktrace::4.3.0:",
+    "name" : "system.diagnostics.stacktrace",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.diagnostics.stacktrace@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "bdc82f012ee82169cc605778d9ec87913c366b06"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "76cf1410724d5ab27ed66d43e68d25cc6952076c8914fa1692bab4c406928239"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "be70527683c9202275ecacfa939ae8b77d9c24e520a02c78a95eda73c9c59"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Diagnostics.StackTrace.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:pushnotifications.api::4.0.1:",
+    "name" : "pushnotifications.api",
+    "version" : "4.0.1",
+    "purl" : "pkg:nuget/pushnotifications.api@4.0.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "bec7bbbf3e49c7da4b0449fa37040bdfe6bb1a6f"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "d04150faafc1143bfb0b11438f09bed483f1b5d28549aea90f10da803a8b7970"
+    } ],
+    "supplier" : {
+      "name" : "Elders"
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "bce0f4fb9319c99ddab8a8d5b813ce12522d171b35fd8415767eab8792b6c1f6"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/System.Net.Http.Formatting.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.web.infrastructure::1.0.0:",
+    "name" : "microsoft.web.infrastructure",
+    "version" : "1.0.0",
+    "purl" : "pkg:nuget/microsoft.web.infrastructure@1.0.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "91f688c235388c8bcee03ff20d0c8a90dbdd4e3e"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "fe18f4259c947c1fd6d74f1827370e72d7ad09aefb4b720af227333583e0169f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "ASP NET MVC3 EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetmvc3update-eula.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://www.asp.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "b7e19be7e151febd50ae51fb2a960d24f175bd24d80e32fbedef9b91f2f8c85"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.Web.Infrastructure.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.net.compilers::2.8.2:",
+    "name" : "microsoft.net.compilers",
+    "version" : "2.8.2",
+    "purl" : "pkg:nuget/microsoft.net.compilers@2.8.2",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "85195c643f0051966f787d026c4429f34ac591fb"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "98b627b90f5a50f227fced18cf81fbf60df76f3b4730d8ef67a6317e14d189be"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    }, {
+      "license" : {
+        "name" : "MICROSOFT ASP.NET MODEL VIEW CONTROLLER 4 EXTENSIONS",
+        "url" : "https://www.microsoft.com/web/webpi/eula/mvc4extensions_prerelease_eula.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://github.com/dotnet/roslyn" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "b65f1598b78cb61f97c52a86afd0c6485b79111559063e58b316b7761ad19f"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.collections.immutable::1.3.1:",
+    "name" : "system.collections.immutable",
+    "version" : "1.3.1",
+    "purl" : "pkg:nuget/system.collections.immutable@1.3.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a9049b07b9f5c9f4c3da4d4568781ba58564b896"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "a8e9ce5d4db1897a939e60860154617300b0dfa4c4d3e10341f21af0de4bbfd5"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "b08eef10cbb486dead2ed23b52fea6abb42ee75b071d3474ea442fdd243b711"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Collections.Immutable.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:tlts.dev.sdk::2.0.0:",
+    "name" : "tlts.dev.sdk",
+    "version" : "2.0.0",
+    "purl" : "pkg:nuget/tlts.dev.sdk@2.0.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "fa477ec5badeda68d536c8e1cdd67efdc0b262d0"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "fdd7f05f17a80852b4f7385e43dac6320b1fc858de16a965e64ac65173a0ed55"
+    } ],
+    "supplier" : {
+      "name" : "NHATHUYNH"
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "b064b5c7f17eeb8f7bcdae80902b10822ec6b4e3e2eea2cc6c385376de731"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/System.Web.Helpers.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.algorithms::4.3.0:",
+    "name" : "system.security.cryptography.algorithms",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.security.cryptography.algorithms@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3c25b3faaa68cb0e291b537a4991cf413eadb6cf"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "6a0f94d33609622abd37b85c071cc8f4676af91923d36b47434222ba8c554acb"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "9d56d2fd2f661cae431b73b245d11a7d5570773ba1d4f825b574b625e8356668"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Security.Cryptography.Algorithms.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.applicationinsights.agent.intercept::2.4.0:",
+    "name" : "microsoft.applicationinsights.agent.intercept",
+    "version" : "2.4.0",
+    "purl" : "pkg:nuget/microsoft.applicationinsights.agent.intercept@2.4.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "709a39ecea0084e6d01cd3b81e40db0f7f471a5b"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "1f1954ed825b6e7016dee269214a235a54733fc2379a21a81cd9e5b6105b55b6"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://go.microsoft.com/fwlink/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "976eb2e85c1d2c358a4668e2cf73cf8bde3d9f6c42ba0c1e2da0df6a18fbe0"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.AI.Agent.Intercept.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.applicationinsights.windowsserver::2.5.1:",
+    "name" : "microsoft.applicationinsights.windowsserver",
+    "version" : "2.5.1",
+    "purl" : "pkg:nuget/microsoft.applicationinsights.windowsserver@2.5.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b7f0d12b45e15bde16961aa82e6c100a0e6e64a1"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "f6898ba860705ef115332cffd6086661c0b968ed5d476f2084688b2a342f230e"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://go.microsoft.com/fwlink/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "918c9ec3f77ff580157d89ce33768ba551711a2fb74e06a25aaa8f3e5f7bfa3"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.AI.WindowsServer.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.io.pipes.accesscontrol::4.3.0:",
+    "name" : "system.io.pipes.accesscontrol",
+    "version" : "4.3.0",
+    "purl" : "pkg:nuget/system.io.pipes.accesscontrol@4.3.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a8997fc8da1a84eb96f4b105dff032534884c4c6"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "d0319aa8b14bd61044ac3aab4ea250542cff9d03b23dd5e5cd26ef292a2701b2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library RTW",
+        "url" : "https://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "9089717176998840d69360423dcf9dbad2fb11976d26dd59c4cb9fe8559d77"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.IO.Pipes.AccessControl.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.codeanalysis.scripting.common::2.8.2:",
+    "name" : "microsoft.codeanalysis.scripting.common",
+    "version" : "2.8.2",
+    "purl" : "pkg:nuget/microsoft.codeanalysis.scripting.common@2.8.2",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "5e490b4080af89d014c1fb1c4b3a873aaf0bbc1e"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "bc97f04f17a1c37bd84db2e251d06b088d5fbfd1c18e27427209365732eaa0d6"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://github.com/dotnet/roslyn" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "8f22bdbe201ad0e81cd4d7cd23e3869a606590b8369c77ca27658e669f6680ba"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:log4net::2.0.8:",
+    "name" : "log4net",
+    "version" : "2.0.8",
+    "purl" : "pkg:nuget/log4net@2.0.8",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "92683e4fb8d3c7a544dce21e12f24dcc8b600e9c"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "af5610c515d2244db98c662636264c8177e89b1afe407f88fd18a41d66f6e7e2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "https://spdx.org/licenses/Apache-2.0.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "The Apache Software Foundation",
+      "url" : [ "https://logging.apache.org/log4net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "8ee2c483073656a7567841049e7a18bd954cd86a327a0a0c88cfc21d87eb"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/log4net.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.codeanalysis.visualbasic::2.8.2:",
+    "name" : "microsoft.codeanalysis.visualbasic",
+    "version" : "2.8.2",
+    "purl" : "pkg:nuget/microsoft.codeanalysis.visualbasic@2.8.2",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "151b1cdeabf0f6ae2f875d6f314f2c3473a18423"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "49731a1e8d4006f7119847f40519a3eeb32e525cc154eafc5a2a1d4aea13cb1a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://github.com/dotnet/roslyn" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "8625205325b258526d2aee80fa401b2b475c8ea46918d13c7992080d2595556"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:antlr::3.5.0.2:",
+    "name" : "antlr",
+    "version" : "3.5.0.2",
+    "purl" : "pkg:nuget/antlr@3.5.0.2",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "ff476978e5e00463446866270634649a6ba48008"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "aa0624c73874768af59260568b91ba8eb7c9ea5bb4bdb3f3e7767b61c8d0feee"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : "https://spdx.org/licenses/BSD-3-Clause.html"
+      }
+    }, {
+      "license" : {
+        "id" : "BSD-3-Clause-Clear",
+        "url" : "https://spdx.org/licenses/BSD-3-Clause-Clear.html"
+      }
+    }, {
+      "license" : {
+        "id" : "BSD-4-Clause",
+        "url" : "https://spdx.org/licenses/BSD-4-Clause.html"
+      }
+    }, {
+      "license" : {
+        "name" : "JAVAUCL",
+        "url" : "https://udger.com/legal/java_parser"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Sam Harwell, Terence Parr",
+      "url" : [ "https://github.com/antlr/antlrcs" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "8435c8a8e0278bcfe7d44c1b681943d8bf9fcd561ef785cd599ad64f8c215d9"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Antlr3.Runtime.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.io.compression::4.0.0-beta-22231:",
+    "name" : "system.io.compression",
+    "version" : "4.0.0-beta-22231",
+    "purl" : "pkg:nuget/system.io.compression@4.0.0-beta-22231",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "629ce95c12b21678d877359ec4552d431c1cfbab"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "b963eb95627b5f223e813fce8a53e6c9d72891714923de7263111473faebf3ef"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "7eef15faab2258b41b799692df261cef9d6bceb68145a232b6f52db3f5e6f"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.IO.Compression.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.applicationinsights.perfcountercollector::2.5.1:",
+    "name" : "microsoft.applicationinsights.perfcountercollector",
+    "version" : "2.5.1",
+    "purl" : "pkg:nuget/microsoft.applicationinsights.perfcountercollector@2.5.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "f17300d29a732973daee5975f958cc645fe3d076"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "e588d4d075538cdee085584e4832ee45f2d66ed7c5ab34935e304ff2e21f9fb2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://go.microsoft.com/fwlink/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "7c48591d094dfed5598f09f095bec79395e22b751fb44448c7fead732b8cae"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.AI.PerfCounterCollector.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.aspnet.webapi.webhost::5.2.4:",
+    "name" : "microsoft.aspnet.webapi.webhost",
+    "version" : "5.2.4",
+    "purl" : "pkg:nuget/microsoft.aspnet.webapi.webhost@5.2.4",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "f811fc74a6bc18c492b72707c4de05410a93b977"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "68431af966998ad3abce11214c9be3cd324abcd97effdff4e931e1cf0eebd6f4"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://www.asp.net/web-api" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "78f1d7e9dceccd74836977c27bcaa5b48edcbb75d41488ff0d1691e551b330"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/System.Web.Http.WebHost.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:qnamakerruntime::4.0.9:",
+    "name" : "qnamakerruntime",
+    "version" : "4.0.9",
+    "purl" : "pkg:nuget/qnamakerruntime@4.0.9",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "86543c520d9baa148309613c5a3dc23fe06e3360"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "128ea656fdbae08f9c54c7848000107719341a11d9f569f1bde4a9ea21c1b3e7"
+    } ],
+    "supplier" : {
+      "name" : "Rohan Kulkarni",
+      "url" : [ "https://qnamaker.ai/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "71fc1fc3d787103b936f5ad6b5d0a9d84d2e31c0ca90ad2a2323ed31202d8b32"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.AI.Web.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.reflection.metadata::1.4.2:",
+    "name" : "system.reflection.metadata",
+    "version" : "1.4.2",
+    "purl" : "pkg:nuget/system.reflection.metadata@1.4.2",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "74443707eda9ebbb98a68a1d03a29d5305b25f11"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "652ded0ce5e153b85154ac65d00244aafb49e0fe8a958e2afb9c5bea83a957c0"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "6f5fe931bba79e4aedb07b22ab5f9dfa8a441bc9ed75ca3e3f48bac5dc215b4"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Reflection.Metadata.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:newtonsoft.json::11.0.1:",
+    "name" : "newtonsoft.json",
+    "version" : "11.0.1",
+    "purl" : "pkg:nuget/newtonsoft.json@11.0.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8026efade4af8de5cba7265914ca09d9d957ba81"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "e5fa1ec7205ff6cca95eb14560e1c70d7d39e86d3a89552448147dcb89243048"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "James Newton-King",
+      "url" : [ "https://www.newtonsoft.com/json" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "6d93c3c095f425eb89452b3d4f3d73599f3bf22e7ff554dbb58aba3ca83f9a"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Newtonsoft.Json.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.codeanalysis.common::2.8.2:",
+    "name" : "microsoft.codeanalysis.common",
+    "version" : "2.8.2",
+    "purl" : "pkg:nuget/microsoft.codeanalysis.common@2.8.2",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "e19fa684b4d4801a9f14dd19d4f5607c71703bce"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "478fa2f04a64256955f9682b8114a2f72f4a9e22de60fe5a15b2d846b6e2d6db"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://github.com/dotnet/roslyn" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "6961f123e76b5cb559a736d4ea6ade95e6a8b01f407cda76c6147f45fce12b1a"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.CodeAnalysis.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:terminz.webservice::14.8.1.1:",
+    "name" : "terminz.webservice",
+    "version" : "14.8.1.1",
+    "purl" : "pkg:nuget/terminz.webservice@14.8.1.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "4391d70ebdb99ef37266722c1bcf98afceb20c89"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "f6130319d63796212ac7a4953c2b127446a08e854c8b18823bd7805022c1b388"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "HL7 New Zealand",
+      "url" : [ "https://terminz-itp.azurewebsites.net/home/prescription" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "6490a656e16a23727a6d5121ae0e4aaae2afa57232887d6b8a127c5e98f847e"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/System.Web.WebPages.Deployment.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.codedom.providers.dotnetcompilerplatform::2.0.0:",
+    "name" : "microsoft.codedom.providers.dotnetcompilerplatform",
+    "version" : "2.0.0",
+    "purl" : "pkg:nuget/microsoft.codedom.providers.dotnetcompilerplatform@2.0.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d888a9354cec08ea8947c7edbfd875a8da90b95c"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "7983b6d202b68af793cb8aa82f74586ef0bf4e2f45e9e169e35e96bdaf818631"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://github.com/aspnet/roslyncodedomprovider" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "5fbd5585f04f629de32f66a396d91a116bd3629b9aba63eea45ebeb4bfc09629"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.aspnet.telemetrycorrelation::1.0.0:",
+    "name" : "microsoft.aspnet.telemetrycorrelation",
+    "version" : "1.0.0",
+    "purl" : "pkg:nuget/microsoft.aspnet.telemetrycorrelation@1.0.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "57794d48edb45505d76337673df707ca583bbdb7"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "865272671b3f9fc66c0c97378c024e0da5c0dead2c50b278a11ab51338df876a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://www.asp.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "55cba02f111d29c1bbb3e8e02592c8f6eb14e35561fff83a9d9c7f0806e6d16"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.AspNet.TelemetryCorrelation.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.applicationinsights::2.5.1:",
+    "name" : "microsoft.applicationinsights",
+    "version" : "2.5.1",
+    "purl" : "pkg:nuget/microsoft.applicationinsights@2.5.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b2ae0f223fd75cc6868d588679027ddaf46fa1a9"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "08bdc4118d1d59d96c7701fa0c0f399e932f05c8f3aae688a4159c33b66a77f2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://go.microsoft.com/fwlink/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "3f8e74f5ecef2317905e2cb044d187b40e25148cf78614f28f0b751513bd6"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.ApplicationInsights.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.accesscontrol::4.5.0-preview1-26216-02:",
+    "name" : "system.security.accesscontrol",
+    "version" : "4.5.0-preview1-26216-02",
+    "purl" : "pkg:nuget/system.security.accesscontrol@4.5.0-preview1-26216-02",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "db19f7234532791405988eb97d562751bbd864d1"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "89000dbd071fe745bfc74fe4ecc4c80c55b7a5ac386df3b61f636cd7536066bb"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "3f1029e32c53cc8e7272f9bbd75c8cef7ed365ce9fa31949ddb3cd14d0b279d"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Security.AccessControl.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:webgrease::1.6.0:",
+    "name" : "webgrease",
+    "version" : "1.6.0",
+    "purl" : "pkg:nuget/webgrease@1.6.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9ee60091bf6e1cc009cc289ce8e0b8c6c602b963"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "7e5c4246239d0d5564bc9bde9b598e9ea50218b820c3821b2c1f769e04c542b0"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "webgrease@microsoft.com",
+      "url" : [ "https://webgrease.codeplex.com/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "3d69dda6f11bceb215e3effb951fd5852462f5095b55aacac5f52be4eb2f1"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/WebGrease.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.diagnosticsource::4.4.1:",
+    "name" : "system.diagnostics.diagnosticsource",
+    "version" : "4.4.1",
+    "purl" : "pkg:nuget/system.diagnostics.diagnosticsource@4.4.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b4152fa3e69fa6fe574a9e4f8ff305c91a440557"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "7b2d4fa3ca2a432db8424542da51f85846e570ff7d72ce2c116e6852e4b86407"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "341b3f7ed1d666814ff2f9a27219dc4ddd4933e1e56c1d96d170d2eea9fdc6"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/System.Diagnostics.DiagnosticSource.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.codeanalysis.csharp::2.8.2:",
+    "name" : "microsoft.codeanalysis.csharp",
+    "version" : "2.8.2",
+    "purl" : "pkg:nuget/microsoft.codeanalysis.csharp@2.8.2",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b4ae8047a567dbf21460b9c8f06a313e4a94edd1"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "ad48fc93e7d3164f490e0a80230d2953b2f7120d9940e0af6d4ec17f3e4d5e97"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://github.com/dotnet/roslyn" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "33d4e244bebfbdbc8ca4fe697cbd77451919929c88610732e9676b3634fb3e4"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.console::4.3.1:",
+    "name" : "system.console",
+    "version" : "4.3.1",
+    "purl" : "pkg:nuget/system.console@4.3.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b5102629939ebdd4bcd0f407a92828dee5f2b565"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "083f8649db8063f231eb38af39a450cc4cb9c8d381804bd189bcf589eb9f0951"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://dot.net/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "33bb834af835391d689e278b202bc18fc7ffa6c24c23cf787b152a75d645a"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/System.Console.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.codeanalysis.csharp.scripting::2.8.2:",
+    "name" : "microsoft.codeanalysis.csharp.scripting",
+    "version" : "2.8.2",
+    "purl" : "pkg:nuget/microsoft.codeanalysis.csharp.scripting@2.8.2",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "fa5e88c45f190341022bcba5cf9af71eaf86d6cc"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "800c13ee78da1077865d52fa75a5c79fdd104f5f1503da996fecbf8d57159e95"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Microsoft .NET Library EULA",
+        "url" : "https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm"
+      }
+    }, {
+      "license" : {
+        "name" : "Microsoft .NET Library License",
+        "url" : "http://www.microsoft.com/net/dotnet_library_license.htm"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://github.com/dotnet/roslyn" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "28619a748f15cd3322ae4b14be4f450c056c4cf4f6bb975170fcf62e982de4"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.applicationinsights.windowsserver.telemetrychannel::2.5.1:",
+    "name" : "microsoft.applicationinsights.windowsserver.telemetrychannel",
+    "version" : "2.5.1",
+    "purl" : "pkg:nuget/microsoft.applicationinsights.windowsserver.telemetrychannel@2.5.1",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c0967499911f4cb037cfcc01390140ccce3d7948"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "928b8c94da5679f2d60f6a815f13d55acd7c25d1168acc83360129f4f038731f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "https://spdx.org/licenses/MIT.html"
+      }
+    } ],
+    "supplier" : {
+      "name" : "Microsoft",
+      "url" : [ "https://go.microsoft.com/fwlink/" ]
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "2542b8c0dfb8ace2484d979a1e2d2abf6ddb3f408013878f781c247c2093f728"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/Microsoft.AI.ServerTelemetryChannel.dll"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:axp.web.optimization::1.0.0:",
+    "name" : "axp.web.optimization",
+    "version" : "1.0.0",
+    "purl" : "pkg:nuget/axp.web.optimization@1.0.0",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "72a420f9026890fc6c7f6f3a8050fd4dcf7e2d4d"
+    }, {
+      "alg" : "SHA-256",
+      "content" : "321b29486a5c3195574552ad05dba2199572db3a3ba3952bd1ee768cc3f8cedd"
+    } ],
+    "supplier" : {
+      "name" : "AntoXa.PRO"
+    },
+    "properties" : [ {
+      "name" : "Bytecode Hash",
+      "value" : "20ae2937d96930bb9cfd6e54cc671c110ad43d06ef139208dd8eca67df3b5cf"
+    }, {
+      "name" : "File Path",
+      "value" : "WebApp_1673952222052_zip/Content/D_C/a/1/s/VeraDemoNet/obj/Release/Package/PackageTmp/bin/System.Web.Optimization.dll"
+    } ]
+  } ],
+  "dependencies" : [ {
+    "ref" : "nuget:microsoft.net.compilers::2.8.2:"
+  }, {
+    "ref" : "nuget:microsoft.applicationinsights.agent.intercept::2.4.0:"
+  }, {
+    "ref" : "nuget:antlr::3.5.0.2:"
+  }, {
+    "ref" : "nuget:microsoft.web.infrastructure::1.0.0:"
+  }, {
+    "ref" : "nuget:system.security.cryptography.x509certificates::4.3.0:"
+  }, {
+    "ref" : "nuget:webgrease::1.6.0:"
+  }, {
+    "ref" : "nuget:microsoft.applicationinsights.perfcountercollector::2.5.1:"
+  }, {
+    "ref" : "nuget:microsoft.codeanalysis.csharp::2.8.2:"
+  }, {
+    "ref" : "nuget:system.io.compression::4.0.0-beta-22231:"
+  }, {
+    "ref" : "nuget:system.io.pipes::4.3.0:"
+  }, {
+    "ref" : "nuget:system.collections.immutable::1.3.1:"
+  }, {
+    "ref" : "nuget:system.xml.readerwriter::4.3.0:"
+  }, {
+    "ref" : "nuget:system.text.encoding.codepages::4.5.0-rc1:"
+  }, {
+    "ref" : "nuget:system.io.filesystem::4.0.1:"
+  }, {
+    "ref" : "nuget:system.valuetuple::4.3.0:"
+  }, {
+    "ref" : "nuget:system.diagnostics.diagnosticsource::4.4.1:"
+  }, {
+    "ref" : "nuget:system.io.filesystem.primitives::4.3.0:"
+  }, {
+    "ref" : "nuget:qnamakerruntime::4.0.9:"
+  }, {
+    "ref" : "nuget:tlts.dev.sdk::2.0.0:"
+  }, {
+    "ref" : "nuget:microsoft.applicationinsights.dependencycollector::2.5.1:"
+  }, {
+    "ref" : "nuget:microsoft.applicationinsights.windowsserver.telemetrychannel::2.5.1:"
+  }, {
+    "ref" : "nuget:system.console::4.3.1:"
+  }, {
+    "ref" : "nuget:system.security.cryptography.encoding::4.3.0:"
+  }, {
+    "ref" : "nuget:system.xml.xpath::4.3.0:"
+  }, {
+    "ref" : "nuget:system.security.cryptography.algorithms::4.3.0:"
+  }, {
+    "ref" : "nuget:microsoft.codeanalysis.csharp.scripting::2.8.2:"
+  }, {
+    "ref" : "nuget:system.diagnostics.stacktrace::4.3.0:"
+  }, {
+    "ref" : "nuget:system.security.claims::4.3.0:"
+  }, {
+    "ref" : "nuget:system.appcontext::4.3.0:"
+  }, {
+    "ref" : "nuget:microsoft.aspnet.webpages::3.2.4:"
+  }, {
+    "ref" : "nuget:microsoft.codeanalysis.scripting.common::2.8.2:"
+  }, {
+    "ref" : "nuget:system.io.pipes.accesscontrol::4.3.0:"
+  }, {
+    "ref" : "nuget:microsoft.codeanalysis.common::2.8.2:"
+  }, {
+    "ref" : "nuget:microsoft.aspnet.webapi.webhost::5.2.4:"
+  }, {
+    "ref" : "nuget:system.xml.xpath.xdocument::4.3.0:"
+  }, {
+    "ref" : "nuget:system.xml.xmldocument::4.3.0:"
+  }, {
+    "ref" : "nuget:entityframework::6.2.0:"
+  }, {
+    "ref" : "nuget:system.diagnostics.fileversioninfo::4.3.0:"
+  }, {
+    "ref" : "nuget:microsoft.codedom.providers.dotnetcompilerplatform::2.0.0:"
+  }, {
+    "ref" : "nuget:terminz.webservice::14.8.1.1:"
+  }, {
+    "ref" : "nuget:newtonsoft.json::11.0.1:"
+  }, {
+    "ref" : "nuget:system.security.accesscontrol::4.5.0-preview1-26216-02:"
+  }, {
+    "ref" : "nuget:microsoft.diasymreader.native::1.7.0:"
+  }, {
+    "ref" : "nuget:system.security.cryptography.primitives::4.0.0:"
+  }, {
+    "ref" : "nuget:log4net::2.0.8:"
+  }, {
+    "ref" : "nuget:axp.web.optimization::1.0.0:"
+  }, {
+    "ref" : "nuget:microsoft.applicationinsights.windowsserver::2.5.1:"
+  }, {
+    "ref" : "nuget:microsoft.codeanalysis.visualbasic::2.8.2:"
+  }, {
+    "ref" : "nuget:system.security.principal.windows::4.4.1:"
+  }, {
+    "ref" : "nuget:microsoft.applicationinsights::2.5.1:"
+  }, {
+    "ref" : "nuget:system.reflection.metadata::1.4.2:"
+  }, {
+    "ref" : "nuget:microsoft.aspnet.telemetrycorrelation::1.0.0:"
+  }, {
+    "ref" : "nuget:pushnotifications.api::4.0.1:"
+  } ],
+  "metadata" : {
+    "timestamp" : "2023-09-21T00:02:10.083+00:00",
+    "authors" : [ {
+      "name" : "Jin Mok",
+      "email" : "jmok@veracode.com"
+    } ],
+    "supplier" : {
+      "name" : "verainternal_jmok"
+    },
+    "tools" : [ {
+      "vendor" : "Veracode",
+      "name" : "SCA SBOM Tool",
+      "version" : "1.0"
+    } ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "dotnet-verademo_ADO_yaml",
+      "name" : "dotnet-verademo_ADO_yaml",
+      "properties" : [ {
+        "name" : "veracode:scan_id",
+        "value" : "9f45efbf-8b48-411d-be8f-ba6ccd78a036"
+      }, {
+        "name" : "veracode:scan_type",
+        "value" : "application"
+      }, {
+        "name" : "veracode:linked",
+        "value" : "false"
+      }, {
+        "name" : "veracode:app_id",
+        "value" : "3c0d3fa5-8991-422f-8142-bced82628fb7"
+      } ]
+    }
+  }
+}
